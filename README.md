@@ -1,5 +1,6 @@
 ## Steps To Reproduce the issue
 
+- confiog at https://github.com/ahhmarr/mikro-orm-enitities-issue/blob/main/src/database/mikro-orm.config.ts
 - run `docker-compose up --build`
 - connect to the docker image shell by running `docker exec -it $(docker ps | grep mikro-orm-enitities-issue-service | awk '{print $1}') /bin/sh`
 - run the seed command inside the container `npx mikro-orm seeder:run`
