@@ -10,3 +10,4 @@
 ```
 MetadataError: Only abstract entities were discovered, maybe you forgot to use @Entity() decorator?
 ```
+- this seems to a CLI issue, as seeders in code works https://github.com/ahhmarr/mikro-orm-enitities-issue/blob/main/src/plugins/database.ts#L26-L27
