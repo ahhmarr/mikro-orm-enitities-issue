@@ -1,7 +1,6 @@
 node_modules/
 dist/
 
-.env
 temp
 !.prettier.config.js
 # Log files

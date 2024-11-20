@@ -28,8 +28,8 @@ const config = defineConfig({
     tableName: 'mikroOrmMigration',
   },
   seeder: {
-    path: 'dist/database/seeders',
-    pathTs: 'src/database/seeders',
+    path: './dist/database/seeders',
+    pathTs: './src/database/seeders',
   },
   pool: {
     min: 5,
