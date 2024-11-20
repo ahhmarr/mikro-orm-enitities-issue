@@ -9,7 +9,7 @@
   ![Screenshot 2024-08-01 at 01 15 17](https://github.com/user-attachments/assets/4785aff3-b4a7-43e2-9b5b-26f3bdbaac88)
 
 ```
-MetadataError: Only abstract entities were discovered, maybe you forgot to use @Entity() decorator?
+MetadataError: Only abstract entities were discovered, maybe you forgot to use @Entity() decorator? This can also happen when you have multiple `@mikro-orm/core` packages installed side by side.
 ```
 
 - this seems to a CLI issue, as seeders in code works https://github.com/ahhmarr/mikro-orm-enitities-issue/blob/main/src/plugins/database.ts#L26-L27
